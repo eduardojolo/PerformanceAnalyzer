@@ -7,6 +7,12 @@ package br.jolo.util;
  *
  */
 public class Util {
+	
+	public final static int[] ARRAY;
+	
+	static{
+		ARRAY = fillArray(2000);
+	}
 
 	/**
 	 * Private constructor for utility class
@@ -48,4 +54,6 @@ public class Util {
 			}
 		}
 	}
+	
+	
 }

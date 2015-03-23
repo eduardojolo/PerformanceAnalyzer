@@ -1,7 +1,6 @@
 package br.jolo.sort.impl;
 
 import br.jolo.sort.ISort;
-import br.jolo.util.Util;
 
 /**
  * Implementation of the bubble sort algorithm
@@ -30,9 +29,7 @@ public class BubblesortImpl implements ISort {
 		        }
 		    }
 		}
-		
-		Util.printArray(array);
-		
+				
 	}
 	
 }

@@ -14,7 +14,7 @@ public class BubblesortTestCase extends TestCase {
 	public BubblesortTestCase(String name) {
 		super(name);
 		
-		array = Util.fillArray(1000);
+		array = Util.ARRAY;
 	}
 	
 	public void testSort() {

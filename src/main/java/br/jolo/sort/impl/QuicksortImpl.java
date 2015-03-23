@@ -20,7 +20,6 @@ public class QuicksortImpl implements ISort {
 		
 		quicksort(0, values.length - 1);
 		
-		System.out.println(numbers);
 	}
 	
 	/**

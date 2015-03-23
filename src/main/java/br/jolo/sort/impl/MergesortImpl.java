@@ -23,7 +23,6 @@ public class MergesortImpl implements ISort {
 		 this.helper = new int[values.length];
 		 mergesort(0, values.length - 1);
 		 
-		 System.out.println(numbers);
 	 }
 	 
 	 private void mergesort(int low, int high) {
